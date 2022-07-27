@@ -15,7 +15,7 @@ aboutme: "I am a data scientist with 10+ years experience in collecting, wrangli
   \ analyzing, and visualizing different types of data. I have a strong background
   in statistical modeling and am effective at communicating results to technical and
   non-technical audiences alike. My favorite programming language is R, but I am always
-  keen to expand on my tech-stack. My partner and I have three kids and live close
+  keen to expand on my tech stack. My partner and I have three kids and live close
   to Hannover, Germany."
 docname: CV
 output:
