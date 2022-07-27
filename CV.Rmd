@@ -1,0 +1,57 @@
+
+---
+name: Dr. Timm Fulge
+position: Data Scientist
+profilepic: ./img/pic2.jpg
+phone: +49 151 27071564
+email: timm.fulge@outlook.com
+orcid: "0000-0002-3712-0474"
+github: tfulge
+linkedin: timmfulge
+stackoverflow: tifu
+date: "July 2022"
+headcolor: 414141
+aboutme: "I am a data scientist with 10+ years experience in collecting, wrangling,
+  \ analyzing, and visualizing different types of data. I have a strong background
+  in statistical modeling and am effective at communicating results to technical and
+  non-technical audiences alike. My favorite programming language is R, but I am always
+  keen to expand on my tech-stack. My partner and I have three kids and live close
+  to Hannover, Germany."
+docname: CV
+output:
+  vitae::awesomecv
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+library(tidyverse)
+source(file = here::here("cv_data","data.r"))
+
+```
+
+
+
+# Relevant Work Experience
+
+```{r}
+work
+```
+
+# Education
+
+```{r}
+education %>% 
+  detailed_entries(Degree, Year, Institution, Where)
+```
+# Skills
+
+```{r}
+skills %>%
+  detailed_entries(
+    with = area,
+    what = skills,
+    why = details
+  )
+```
+
