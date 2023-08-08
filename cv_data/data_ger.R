@@ -12,7 +12,10 @@ education <- tribble(
 
 work <- tribble(
   ~ role, ~ company, ~ loc, ~ dates, ~ details,
-  "Statistiker", "Landeshauptstadt Hannover", "Hannover", "Oktober 2017 - heute", 
+  "Data Scientist", "Hannover Rück SE", "Hannover", "July 2023 - heute",
+  list("Bereich: Life and Health - Analytics and Longevity - Data Analytics"
+  ),
+  "Statistiker", "Landeshauptstadt Hannover", "Hannover", "Oktober 2017 - Juni 2023", 
   list("Entwicklung bayesianscher Mehrebenenmodelle zur Vorhersage der Zahl von Schülerinnen und Schülern",
        "Entwicklung von interaktiven Anwendungen und Dashboards zur Unterstützung von Planungsprozesses",
        "Pflege und Weiterentwicklung relationaler Datenbanken mit Informationen von allen Schulen in Trägerschaft der Stadt",

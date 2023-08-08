@@ -11,14 +11,17 @@ education <- tribble(
 
 work <- tribble(
   ~ role, ~ company, ~ loc, ~ dates, ~ details,
-  "Statistician", "City of Hannover", "Hannover, Germany", "Oct. 2017 - Present", 
-  list("Building Bayesian multilevel models to forecast student numbers for school planning",
+  "Data Scientist", "Hannover Rück SE", "Hannover, Germany", "July 2023 - present",
+    list("Department: Life and Health - Analytics and Longevity - Data Analytics"
+         ),
+  "Statistician", "City of Hannover", "Hannover, Germany", "Oct. 2017 - June 2023", 
+    list("Building Bayesian multilevel models to forecast student numbers for school planning",
        "Development of interactive apps and dashboards to communicate results and aid planning",
        "Maintaining and further developing relational database for data from all municipal schools",
        "Aiding decision-making by providing data-driven insights to policymakers and the public"
   ),
   "Research Fellow and Ph.D. Candidate", "University of Bremen", "Bremen, Germany", "Jan. 2013 - Sept. 2017", 
-  list("Authored research papers using wide array of quantitative methods", 
+    list("Authored research papers using wide array of quantitative methods", 
        "Taught graduate level classes on statistical methods and programming",
        "Graduated magna cum laude with dissertation entitled 'The Political Economy of Higher Education: Inequality, Preferences, and Policy Change'"),
 ) %>% 
